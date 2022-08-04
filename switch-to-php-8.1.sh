@@ -30,4 +30,7 @@ sudo service apache2 restart > /dev/null
 echo "* Switching CLI PHP to 8.1..."
 sudo update-alternatives --set php /usr/bin/php8.1 > /dev/null
 
+echo "* Switching phpize to 8.1..."
+sudo update-alternatives --set phpize /usr/bin/phpize8.1 > /dev/null
+
 echo "* Switch to PHP 8.1 complete."

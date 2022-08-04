@@ -30,4 +30,7 @@ sudo service apache2 restart > /dev/null
 echo "* Switching CLI PHP to 7.2..."
 sudo update-alternatives --set php /usr/bin/php7.2 > /dev/null
 
+echo "* Switching phpize to 7.2..."
+sudo update-alternatives --set phpize /usr/bin/phpize7.2 > /dev/null
+
 echo "* Switch to PHP 7.2 complete."

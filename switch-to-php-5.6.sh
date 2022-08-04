@@ -30,4 +30,7 @@ sudo service apache2 restart > /dev/null
 echo "* Switching CLI PHP to 5.6..."
 sudo update-alternatives --set php /usr/bin/php5.6 > /dev/null
 
+echo "* Switching phpize to 5.6..."
+sudo update-alternatives --set phpize /usr/bin/phpize5.6 > /dev/null
+
 echo "* Switch to PHP 5.6 complete."
