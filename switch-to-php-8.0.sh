@@ -18,6 +18,12 @@ sudo a2dismod php7.3 > /dev/null
 echo "* Disabling Apache PHP 7.4 module..."
 sudo a2dismod php7.4 > /dev/null
 
+echo "* Disabling Apache PHP 8.2 module..."
+sudo a2dismod php8.2 > /dev/null
+
+echo "* Disabling Apache PHP 8.3 module..."
+sudo a2dismod php8.3 > /dev/null
+
 echo "* Disabling Apache PHP 8.1 module..."
 sudo a2dismod php8.1 > /dev/null
 
