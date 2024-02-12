@@ -1,6 +1,6 @@
 # 🔄 PHP Switch Scripts
 
-These scripts are designed to aid in the setup of and switching between multiple PHP versions in Ubuntu 14.04 LTS or newer.
+These scripts are designed to aid in the setup of and switching between multiple PHP versions in Ubuntu 14.04 LTS or newer OR using the setup-debian.sh for Debian version 10 or newer.
 
 <img src="assets/images/usage.png" />
 
@@ -9,7 +9,7 @@ Please note that these scripts install packages from a third-party repository, p
 
 ## Requirements
 
-* Ubuntu 14.04.* LTS or newer
+* Ubuntu 14.04.* LTS or newer (or Debian 10 or newer)
 * Apache 2.4.*
 
 You can check you have the required versions by running the following command.
@@ -61,6 +61,8 @@ Once setup is complete, you can easily switch between different PHP versions usi
 ./switch-to-php-7.4.sh
 ./switch-to-php-8.0.sh
 ./switch-to-php-8.1.sh
+./switch-to-php-8.2.sh
+./switch-to-php-8.3.sh
 ```
 
 This will alter the versions of PHP running in Apache and the command line. Your password will be required to enable/disable Apache modules, restart the web server and alter the default PHP CLI version.
